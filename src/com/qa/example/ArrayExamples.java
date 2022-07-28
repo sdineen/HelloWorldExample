@@ -3,7 +3,7 @@ package com.qa.example;
 public class ArrayExamples {
 	public static void main(String[] args) {
 		// printSumOfDigits(74);
-		convertToText(21);
+		convertToText(11);
 
 	}
 
