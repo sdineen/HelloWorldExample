@@ -1,6 +1,6 @@
 package com.qa.example;
 
-public class BankAccount {
+ class BankAccount {
 	
     public float balance = 0;
     private long accountNum;
