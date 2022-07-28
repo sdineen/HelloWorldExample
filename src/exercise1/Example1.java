@@ -4,8 +4,10 @@ package exercise1;
 public class Example1 {
 	
 	public static void main(String[] args) {
-		int result = printMessage("Simon");
-		System.out.println(result);
+
+		
+		String s = "abc";
+		System.out.println(s.substring(2,3));
 	}
 
 	private static int printMessage(String x) {	
