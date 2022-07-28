@@ -4,7 +4,7 @@ public class FizzBuzz {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String value = getResponse(15);
+		String value = getResponse(10);
 		System.out.println(value);
 	}
 
