@@ -8,12 +8,19 @@ import phylogenetic.plants.Plants;
 public class Runner {
 
 	public static void main(String[] args) {
+		
+        Shape s = new Square();
+        System.out.println(s.getArea(3) + ", " + s.getPerimeter(3));
 
-		Bird bird1 = new Magpie();
-		bird1.noise();
-		
-		
-		Chicken chicken1 = new Chick();
+        s = new Circle();
+        System.out.println(s.getArea(3) + ", " + s.getPerimeter(3));
+        		
+        
+//		Bird bird1 = new Magpie();
+//		bird1.noise();
+//		
+//		
+//		Chicken chicken1 = new Chick();
 
 		// polymorphic behaviour
 //		Eukaryota eukaryota1 = null;
