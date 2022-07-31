@@ -7,7 +7,7 @@ public class Example1 {
 
 
 
-		String s = "abc";
+		String s = "abcd";
 		System.out.println(s.substring(2,3));
 	}
 
