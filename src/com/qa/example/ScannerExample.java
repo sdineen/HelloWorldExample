@@ -10,6 +10,7 @@ public class ScannerExample {
 		String number = null;
 		while ((number = scan.nextLine()) != null) {
 			System.out.println("number is "+number);
+			int i = Integer.parseInt(number);
 
 		}
 	}

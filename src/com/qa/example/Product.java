@@ -20,8 +20,7 @@ public class Product {
 		this.setCostPrice(costPrice);
 		this.setRetailPrice(retailPrice);
 	}
-	
-	
+		
 	public Product() {
 		
 	}
