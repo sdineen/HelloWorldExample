@@ -7,11 +7,18 @@ public class ScannerExample {
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter number");
-		String number = null;
-		while ((number = scan.nextLine()) != null) {
+	
+		while(scan.hasNextLine()) {
+			String number = scan.nextLine();
 			System.out.println("number is "+number);
 			int i = Integer.parseInt(number);
-
 		}
+		
+		
+//		while ((number = scan.nextLine()) != null) {
+//			System.out.println("number is "+number);
+//			int i = Integer.parseInt(number);
+//
+//		}
 	}
 }

@@ -2,8 +2,14 @@ package phylogenetic;
 
 public class Eukaryota {
 	
+
 	
- 	private String name;
+ 	@Override
+	public String toString() {
+	 return	name + " has " + numberOfSpecies() + " species";
+	}
+
+	private String name;
 
 	public Eukaryota() {
  		System.out.println("Eukaryota constructor");

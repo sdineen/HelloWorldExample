@@ -26,6 +26,10 @@ public class Runner {
 		Eukaryota eukaryota1 = null;
 //
 		eukaryota1 = new Sponges("SpongBob");
+		
+		System.out.println(eukaryota1);
+		
+		
 		System.out.println(eukaryota1.numberOfSpecies());
 		System.out.println(eukaryota1.getName());
 //
