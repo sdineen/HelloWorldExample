@@ -1,24 +1,12 @@
 package exercise1;
 
+import java.util.Scanner;
 
 public class Example1 {
-	
-	public static void main(String[] args) {
 
 
-
-		String s = "abc";
-		System.out.println(s.substring(2,3));
-	}
-
-	private static int printMessage(String x) {	
-		String s = "Hello "+x;
-		return 5;
-	}
 
 }
-
-
 
 //Output "Hello World!" to the console.
 
@@ -29,4 +17,3 @@ public class Example1 {
 
 //Modify your method to return a String once called, which you then use 
 //to output to the console.
-
