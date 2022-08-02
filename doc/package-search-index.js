@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"challenges.garage"},{"l":"com.qa.ecommerce"},{"l":"com.qa.example"},{"l":"com.qa.examples.inheritance"},{"l":"exercise1"},{"l":"exercises.people"},{"l":"exercises.uml"},{"l":"phylogenetic"},{"l":"phylogenetic.animals"},{"l":"phylogenetic.plants"},{"l":"test.examples"}];updateSearchResults();
