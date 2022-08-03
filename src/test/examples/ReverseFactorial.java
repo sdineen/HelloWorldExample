@@ -7,6 +7,7 @@ public class ReverseFactorial {
         for (int i = 2; num%i == 0; num/=i,i ++) {
             if (num / i == 1) return i;
         }
+        System.out.println("NONE");
         return 0;
         
         
